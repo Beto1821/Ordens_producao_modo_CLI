@@ -33,9 +33,9 @@ Certifique-se de preencher as informações de produtos e ordens conforme necess
 
 O sistema utiliza o banco de dados MySQL para armazenar todas as informações das ordens e produtos, de acordo com as configurações definidas no arquivo database.py.
 
-## Exemplo de execução:
+# Exemplos de retorno na execução:
 
-### Exemplo de listagem de produto cadastrado:
+### Exemplo de listagem de produtos cadastrado:
 
 ```
 Produtos cadastrados:
