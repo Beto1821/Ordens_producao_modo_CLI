@@ -38,27 +38,30 @@ O sistema utiliza o banco de dados MySQL para armazenar todas as informações d
 
 ### Exemplo de listagem de produto cadastrado:
 
-
+```
 Produtos cadastrados:
 Produto: bombom, Quantidade em Estoque: 10
 Produto: chocolate, Quantidade em Estoque: 20
-
+```
 
 ### Exemplo de cadastro de ordem para execução:
 
+```
 Nome do produto (ou 'exit' para cancelar): bombom
 Quantidade desejada (ou 'exit' para cancelar): 20
 Quantidade desejada maior que a disponível.
 Quantidade desejada (ou 'exit' para cancelar): 5
 Data de entrega (AAAA-MM-DD) (ou 'exit' para cancelar): 2024-01-01
 Ordem de produção registrada com sucesso!
+```
 
 ### Exemplo de listagem de ordens de produção
 
+```
 Ordens de produção:
 ID Pedido: 1, Produto: bombom, Quantidade: 5, Data de Entrega: 2024-01-01, Status: Em andamento
 ID Pedido: 2, Produto: chocolate, Quantidade: 10, Data de Entrega: 2024-02-01, Status: Em andamento
-
+```
 
 # Observações
 
