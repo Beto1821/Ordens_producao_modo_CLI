@@ -16,6 +16,7 @@ docker run --name production-orders-mysql -e MYSQL_ROOT_PASSWORD=senha_root -e M
 Isso iniciará um contêiner MySQL com as configurações de conexão especificadas no arquivo database.py.
 
 # Execução do Aplicativo
+# Execução do Aplicativo
 
 Para executar o aplicativo no modo de linha de comando, siga os passos abaixo:
 
@@ -98,6 +99,42 @@ Opções:
 5. Cadastrar um novo produto
 6. Sair
 Escolha uma opção: 
+
+## Exemplo de execução:
+
+
+Escolha uma opção: 4
+
+Produtos cadastrados:
+
+Produto: bombom, Quantidade em Estoque: 10
+
+Produto: chocolate, Quantidade em Estoque: 20
+
+
+
+Escolha uma opção: 1
+Nome do produto (ou 'exit' para cancelar): bombom
+Quantidade desejada (ou 'exit' para cancelar): 20
+Quantidade desejada maior que a disponível.
+Quantidade desejada (ou 'exit' para cancelar): 5
+Data de entrega (AAAA-MM-DD) (ou 'exit' para cancelar): 2024-01-01
+Ordem de produção registrada com sucesso!
+Nome do produto (ou 'exit' para cancelar): chocolate
+Quantidade desejada (ou 'exit' para cancelar): 10
+Data de entrega (AAAA-MM-DD) (ou 'exit' para cancelar): 2001-01-01
+A data de entrega deve ser maior que a data atual.
+Data de entrega (AAAA-MM-DD) (ou 'exit' para cancelar): 200
+Data de entrega inválida. Use o formato AAAA-MM-DD.
+Data de entrega (AAAA-MM-DD) (ou 'exit' para cancelar): 2024-02-01
+Ordem de produção registrada com sucesso!
+Nome do produto (ou 'exit' para cancelar): exit
+
+Escolha uma opção: 2
+Ordens de produção:
+ID Pedido: 1, Produto: bombom, Quantidade: 5, Data de Entrega: 2024-01-01, Status: Em andamento
+ID Pedido: 2, Produto: chocolate, Quantidade: 10, Data de Entrega: 2024-02-01, Status: Em andamento
+
 
 # Observações
 
