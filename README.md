@@ -35,34 +35,13 @@ O sistema utiliza o banco de dados MySQL para armazenar todas as informações d
 
 ## Exemplo de execução:
 
-Opções:
-1. Registrar uma nova ordem de produção
-2. Listar todas as ordens de produção
-3. Atualizar o status de uma ordem de produção
-4. Listar produtos cadastrados
-5. Cadastrar um novo produto
-6. Sair
+
 Escolha uma opção: 4
 Produtos cadastrados:
 Produto: bombom, Quantidade em Estoque: 10
 Produto: chocolate, Quantidade em Estoque: 20
-Opções:
-1. Registrar uma nova ordem de produção
-2. Listar todas as ordens de produção
-3. Atualizar o status de uma ordem de produção
-4. Listar produtos cadastrados
-5. Cadastrar um novo produto
-6. Sair
-Escolha uma opção: 2
-Ordens de produção:
-Nenhuma ordem de produção encontrada.
-Opções:
-1. Registrar uma nova ordem de produção
-2. Listar todas as ordens de produção
-3. Atualizar o status de uma ordem de produção
-4. Listar produtos cadastrados
-5. Cadastrar um novo produto
-6. Sair
+
+
 Escolha uma opção: 1
 Nome do produto (ou 'exit' para cancelar): bombom
 Quantidade desejada (ou 'exit' para cancelar): 20
@@ -79,25 +58,12 @@ Data de entrega inválida. Use o formato AAAA-MM-DD.
 Data de entrega (AAAA-MM-DD) (ou 'exit' para cancelar): 2024-02-01
 Ordem de produção registrada com sucesso!
 Nome do produto (ou 'exit' para cancelar): exit
-Opções:
-1. Registrar uma nova ordem de produção
-2. Listar todas as ordens de produção
-3. Atualizar o status de uma ordem de produção
-4. Listar produtos cadastrados
-5. Cadastrar um novo produto
-6. Sair
+
 Escolha uma opção: 2
 Ordens de produção:
 ID Pedido: 1, Produto: bombom, Quantidade: 5, Data de Entrega: 2024-01-01, Status: Em andamento
 ID Pedido: 2, Produto: chocolate, Quantidade: 10, Data de Entrega: 2024-02-01, Status: Em andamento
-Opções:
-1. Registrar uma nova ordem de produção
-2. Listar todas as ordens de produção
-3. Atualizar o status de uma ordem de produção
-4. Listar produtos cadastrados
-5. Cadastrar um novo produto
-6. Sair
-Escolha uma opção: 
+
 
 # Observações
 
