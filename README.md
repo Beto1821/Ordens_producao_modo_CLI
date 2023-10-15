@@ -16,7 +16,6 @@ docker run --name production-orders-mysql -e MYSQL_ROOT_PASSWORD=senha_root -e M
 Isso iniciará um contêiner MySQL com as configurações de conexão especificadas no arquivo database.py.
 
 # Execução do Aplicativo
-# Execução do Aplicativo
 
 Para executar o aplicativo no modo de linha de comando, siga os passos abaixo:
 
