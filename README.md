@@ -37,9 +37,13 @@ O sistema utiliza o banco de dados MySQL para armazenar todas as informações d
 
 
 Escolha uma opção: 4
+
 Produtos cadastrados:
+
 Produto: bombom, Quantidade em Estoque: 10
+
 Produto: chocolate, Quantidade em Estoque: 20
+
 
 
 Escolha uma opção: 1
