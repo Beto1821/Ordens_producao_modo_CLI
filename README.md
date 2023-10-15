@@ -66,7 +66,9 @@ ID Pedido: 2, Produto: chocolate, Quantidade: 10, Data de Entrega: 2024-02-01, S
 
 - Certifique-se de que o servidor MySQL esteja em execução e configurado corretamente, de acordo com as instruções acima. Você pode acessar o banco de dados MySQL usando ferramentas como o MySQL Workbench ou qualquer outro cliente MySQL de sua escolha para visualizar e gerenciar os dados armazenados no banco de dados "production_orders" de acordo com as credenciais especificadas no arquivo database.py.
 
-![Exemplo de captura de tela](/workbench/Screenshot%202023-10-15%20at%2012.06.06.png.png)
+Print tabelas no Workbench:
+
+![Exemplo de captura de tela](/workbench/Screenshot%202023-10-15%20at%2012.06.06.png)
 
 ![Exemplo de captura de tela](/workbench/Screenshot%202023-10-15%20at%2012.06.15.png)
 
